@@ -1,0 +1,21 @@
+.oecdLogo {
+    height: 50px;
+    display: block;
+}
+
+.oecdLogo img{
+    height: 100%;
+    display: block;
+    margin: auto;
+}
+
+@media (max-width: 850px) {
+    .oecdLogo {
+        height: auto;
+        margin: auto;
+    }
+
+    .oecdLogo img {
+        width: 80%
+    }
+} 

@@ -1,0 +1,17 @@
+.DataDownloadItemsContainer {
+    display: flex;
+    margin-top:20px;
+    justify-content:center;
+}
+
+.DataDownloadItems {
+    max-width: 700px;
+    width: 90%;
+    margin:auto;
+}
+
+@media (max-width: 589px) {
+    .DataDownloadItemsContainer {
+        flex-direction: column;
+    }
+}

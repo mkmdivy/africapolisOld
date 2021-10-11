@@ -1,0 +1,64 @@
+.CountrySummary {
+    margin: 10px 0;
+    font-size: 0.9rem;
+    width: 95%;
+    margin: 15px auto;
+}
+
+.CountrySummary span {
+    font-weight: 600;
+}
+
+.ToggleCountrySummary {
+    font-size: 0.8rem;
+    display: flex;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+    align-items: center;
+    color:white;
+    justify-content:center;
+    width: 100px;
+    border: 2px solid #E8AE40;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    /* background: #E8AE40; */
+    cursor: pointer;
+    margin-bottom: 10px;
+    background: #E8AE40;
+}
+
+.ToggleCountrySummary:focus {
+    opacity: 0.5;
+}
+
+.ToggleCountrySummary:hover {
+    background: white;
+    border: 2px solid #E8AE40;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    color:#E8AE40;
+}
+
+.ToggleCountrySummary.active {
+    background: white;
+    color: #E8AE40;
+}
+
+.ToggleCountrySummary.active:hover {
+    background: #E8AE40;
+    color: white;
+    opacity:.8;
+}
+
+.CountrySummary_Text {
+    width: 95%;
+    margin: auto;
+}

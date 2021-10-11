@@ -1,0 +1,13 @@
+.RegionalCheck {
+    margin-bottom: 5px;
+}
+
+.RegionalCheck label {
+    display:inline-block;
+    margin: 0 0 0 5px;
+    font-size:14px;
+}
+
+.RegionalCheck input {
+    width: 15px;
+}

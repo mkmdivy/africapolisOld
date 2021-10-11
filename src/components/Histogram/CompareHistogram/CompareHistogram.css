@@ -1,0 +1,22 @@
+.CompareHistogram {
+    margin-bottom: 40px;
+}
+
+.CompareHistogramLabel > p {
+    /* display: inline; */
+    font-size: .8rem;
+    line-height:16px;
+    font-weight: 600;
+    width: 50%;
+    text-align: center;
+    display: inline-block;
+}
+
+.CompareHistogramLabel > p:nth-child(1) {
+    color: #c7533a;
+}
+
+.CompareHistogramLabel > p:nth-child(2) {
+    color: #e8ae40;
+    margin-bottom: 10px;
+}

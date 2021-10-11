@@ -1,0 +1,62 @@
+.MobileMixerWrapper {
+    position:fixed;
+    width:100%;
+    background: white;
+    z-index: 901;
+    bottom:0;
+    transition: transform .3s ease-out;
+    -webkit-transition: transform .3s ease-out;
+    -moz-transition: transform .3s ease-out;
+    -ms-transition: transform .3s ease-out;
+    -o-transition: transform .3s ease-out;
+}
+
+.Closed {
+    transform: translateY(calc(100% - 40px));
+    -webkit-transform: translateY(calc(100% - 40px));
+    -moz-transform: translateY(calc(100% - 40px));
+    -ms-transform: translateY(calc(100% - 40px));
+    -o-transform: translateY(calc(100% - 40px));
+}
+
+.Open {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+}
+
+.MobileMixerWrapper_Content {
+    box-shadow: 0px 3px 7px rgba(170, 35, 35, 0.1);
+    height: 40px;
+    background: #efefef;
+}
+
+.MobileMixerWrapper_Switch {
+    background: #E8AE40;
+    width:50%;
+    height:100%;
+    display: inline-block;
+}
+
+.MobileMixerWrapper_Mixer {
+    background: #c7533a;
+    width:50%;
+    height:100%;
+    display: inline-block;
+}
+
+.MobileMixerWrapper > h5 {
+    margin: 0;
+    padding: 10px 15px;
+    font-weight: 600;
+    height: 50px;
+    background: #efefef;
+}
+
+@media (min-width: 851px) {
+    .MobileMixerWrapper {
+        display: none;
+    }
+}

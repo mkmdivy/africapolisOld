@@ -1,0 +1,33 @@
+.MixerItem {
+    cursor: pointer;
+    height:40px;
+    font-size: 0.8rem;
+    width: 100%;
+    display: flex;
+    padding: 0;
+}
+
+.MixerItem:hover {
+    background: #e4e4e4;
+}
+
+.MixerItem a {
+    color: inherit;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    width:100%;
+    height:100%;
+}
+
+.MixerItem a.active{
+    background: #e4e4e4;
+    color:#E8AE40;
+}
+
+@media(max-width: 850px) {
+    .MixerItem {
+        align-items:center;
+    }
+}

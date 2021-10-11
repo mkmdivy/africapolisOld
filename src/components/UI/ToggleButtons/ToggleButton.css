@@ -1,0 +1,10 @@
+.ToggleButton {
+    height: 40px;
+    display: block;
+    margin: auto;
+}
+
+.ToggleButton img{
+    height: 100%;
+    display: inline-block;
+}

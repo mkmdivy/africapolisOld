@@ -1,0 +1,34 @@
+.Logo {
+    height: 70px;
+    display: block;
+  }
+
+.Logo img {
+    height: 100%;
+    display: block;
+}
+
+.SmallLogo {
+    height: 50px;
+    display: none;
+}
+
+.SmallLogo img {
+    height: 100%;
+}
+
+/* @media (min-width: 500px) {
+    .SmallLogo{
+        display: none;
+    }
+} */
+
+@media (max-width: 850px) {
+    .Logo {
+        display: none;
+    }
+    .SmallLogo {
+        height: 50px;
+        display:block;
+    }
+}

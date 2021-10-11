@@ -1,0 +1,36 @@
+.TimeSlider {
+    /* padding:25px; */
+}
+
+.TimeSlider h6 {
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 10px;
+    /* font-weight: 600; */
+}
+
+.TimeSlider span {
+    display: inline-block;
+    text-align: right;
+    width: 50%;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.StepRangeSlider__tooltip{
+    display:none;
+}
+
+.StepRangeSlider__track{
+    height: 3px !important;
+    background-color: #585858;
+    border: none !important;
+}
+
+.StepRangeSlider__thumb{
+    border: none !important;
+    background-color: #585858 !important;
+    width:16px;
+    height:16px;
+}

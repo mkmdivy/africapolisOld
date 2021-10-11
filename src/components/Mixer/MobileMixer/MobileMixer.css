@@ -1,0 +1,13 @@
+.MobileMixer {
+    position:fixed;
+    width:100%;
+    background: white;
+    z-index: 901;
+    bottom:0;
+}
+
+@media (min-width: 851px) {
+    .MobileMixer {
+        display: none;
+    }
+}

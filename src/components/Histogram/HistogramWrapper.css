@@ -1,0 +1,61 @@
+.HistogramWrapper {
+    margin-top: 30px;
+    width: 80%;
+    max-width: 600px;
+}
+
+.CompareHistogramWrapper {
+    margin-top: 30px;
+}
+
+.CountryInfo {
+    width: 100%;
+    height: 40px;
+    display:flex;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+    justify-content: space-between;
+}
+
+.CountryInfo.active:hover{
+    opacity: 0.8;
+}
+
+.RegionInfo,
+.CompareInfo {
+    width: 100%;
+    height: 40px;
+}
+
+.CompareInfo > h5 {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.CountryInfo.active {
+    cursor: pointer;
+}
+
+.CountryInfo.active > i {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.CountryInfo > h5,
+.RegionInfo > h5 {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #E8AE40;
+    display: inline-block;
+}
+
+.CountryInfo > i {
+    color: #E8AE40;
+    opacity: 0.3;
+}
+

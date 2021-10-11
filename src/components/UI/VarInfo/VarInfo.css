@@ -1,0 +1,45 @@
+.VariableInfoWrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.VariableInfoWrapper span{
+    visibility: hidden;
+    width: 200px;
+    background-color: #5b5d62;
+    color: #fff;
+    padding: 3px 5px;
+    position: absolute;
+    z-index: 5;
+    bottom: 125%;
+    font-size:12px;
+    font-weight: 300;
+    left: 50%;
+    margin-left: -100px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.VariableInfoWrapper span::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #5B5D62 transparent transparent transparent;
+}
+
+.VariableInfoWrapper:hover span {
+    visibility: visible;
+    opacity: 1;
+}
+
+.VariableInfoWrapper:hover .material-icons.md-dark {
+    color:#5B5D62;
+}
+
+.material-icons.md-dark{
+    color: lightgrey;
+}

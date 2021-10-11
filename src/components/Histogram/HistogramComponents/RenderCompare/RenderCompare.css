@@ -1,0 +1,16 @@
+.CompareVariables{
+    align-self: flex-end;
+    font-size: .8rem;
+}
+
+.CompareVariables p {
+    display:inline-block;
+}
+
+.FirstCountry{
+    color: #c7533a;
+}
+
+.SecondCountry{
+    color:#e8ae40
+}

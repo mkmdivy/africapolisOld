@@ -1,0 +1,17 @@
+.AgglosHistogram {
+    margin-bottom: 50px;
+    width: 80%;
+    max-width: 600px;
+}
+
+.AgglosHistogram h5 {
+    /* width: 95%; */
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #c7533a;
+    margin: 20px auto 40px auto;
+}
+
+.AgglosHistogram > hr {
+    border: 0.5px solid #5B5D62;
+}

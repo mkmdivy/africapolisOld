@@ -1,0 +1,5 @@
+.Indicator {
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+}

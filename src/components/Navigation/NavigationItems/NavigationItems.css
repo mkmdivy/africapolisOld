@@ -1,0 +1,20 @@
+.NavigationItems_Wrapper {
+    height:100%
+}
+
+.NavigationItems {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    height: 100%;
+    flex-flow: row;
+}
+
+@media(max-width: 850px) {
+    .NavigationItems {
+        flex-flow: column;
+        
+    }
+}
+

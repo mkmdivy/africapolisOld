@@ -1,0 +1,74 @@
+
+
+.DataDownloadItem {
+    padding: 0px 20px;
+    height:30px;
+    width: 200px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    background: #E8AE40;
+    margin: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px    ;
+    -webkit-border-radius: 30px    ;
+    -moz-border-radius: 30px    ;
+    -ms-border-radius: 30px    ;
+    -o-border-radius: 30px    ;
+}
+
+.DataDownloadItem > a {
+    width:100%;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.DataDownloadItem:hover {
+    background: white;
+    border: 2px solid #E8AE40;
+}
+
+.DataDownloadItem:hover a {
+    color: #E8AE40;
+}
+
+@media (max-width: 589px) {
+    .DataDownloadItem {
+        width: 100%;
+        margin: 5px 0;
+    }
+}
+
+
+/* @media (max-width: 850px) {
+
+    .DataDownloadItem {
+        height: 40px;
+    }
+
+    .DataDownloadItem > a {
+        color: white;
+        width:100%;
+        text-decoration: none;
+        height:100%;
+        font-size: 14px;
+
+    }
+} */
+/* 
+.DataDownloadItem {
+    display: flex;
+    flex:1;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.DataDownloadItem > i {
+    margin-bottom:10px;
+} */

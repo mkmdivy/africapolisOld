@@ -1,0 +1,24 @@
+.RenderFilter {
+    width: 100%;
+    margin: 0 auto 20px auto;
+    background: #e6e6e6;
+    padding: 32px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    position: sticky;
+    color: #585858;
+    top:0;
+    z-index:2;
+}
+
+.RenderFilter > h5 {
+    font-weight:600;
+}
+
+.RenderFilter > hr { 
+    /* border: 0.5px solid #5B5D62; */
+    margin: 15px 0;    
+}

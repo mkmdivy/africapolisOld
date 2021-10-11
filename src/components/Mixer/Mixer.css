@@ -1,0 +1,39 @@
+.Mixer {
+    height: inherit;
+    position: fixed;
+    background: #efefef;
+    display:flex;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+    flex-direction: column;
+    flex: 1;
+    -webkit-box:1;
+        -moz-box:1;
+        -ms-flexbox:1;
+        -webkit-flex:1;
+    width: 15%;
+    min-width:300px;
+    transform:translateX(-100%);
+    -webkit-transform:translateX(-100%);
+    -moz-transform:translateX(-100%);
+    -ms-transform:translateX(-100%);
+    -o-transform:translateX(-100%);
+}
+
+.Mixer > h5 {
+    background:#E8AE40;
+    color: white;
+    font-size: 1.1rem;
+    height: 50px;
+    padding:15px;
+    margin:0;
+    font-weight: 600;
+}
+
+@media (max-width: 850px) {
+    .Mixer {
+        display: none;
+    }
+}

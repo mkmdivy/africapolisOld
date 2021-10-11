@@ -1,0 +1,37 @@
+.DataWrapper {
+    width: 100%;
+    /* max-width: 700px; */
+    height: 100%;
+    /* margin: auto; */
+    overflow-y: scroll;
+    padding: 80px 0;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.AboutDataWrapper {
+    max-width: 700px;
+    width: 90%;
+    margin:auto;
+}
+
+.DataWrapper > hr {
+    max-width: 700px;
+    width: 90%;
+    margin: 30px auto;
+}
+
+.DataWrapper h5 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #E8AE40;
+    width: 100%;
+}
+
+.AboutDataWrapper > p {
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+

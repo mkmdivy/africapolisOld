@@ -1,0 +1,34 @@
+.CountryRanking,
+.AgglosRanking {
+    align-self: flex-end;
+}
+
+.CountryRankingFirst {
+    /* align-self: flex-end; */
+}
+
+.CountryRankingSecond {
+    /* align-self: flex-end; */
+}
+
+.CountryRankingFirst span {
+    color: #c5543f;
+    font-weight:600;
+}
+
+.CountryRankingSecond span {
+    color: #e8ae40;
+    font-weight:600;
+}
+
+
+
+.CountryRanking span {
+    color: #e8ae40;
+    font-weight:600;
+}
+
+.AgglosRanking span{
+    color: #c5543f;
+    font-weight:600;
+}

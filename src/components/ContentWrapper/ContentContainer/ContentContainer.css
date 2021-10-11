@@ -1,0 +1,12 @@
+#ContentContainer {
+    overflow:scroll;
+    display: flex;
+    display: -webkit-box; 
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex; 
+    justify-content: center;
+    height:100%;
+    box-shadow: -3px 0px 7px rgba(170, 35, 35, 0.1);
+    z-index:2;
+}

@@ -1,0 +1,26 @@
+.Graph {
+    display:flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex:1;
+        -webkit-box:1;
+        -moz-box:1;
+        -ms-flexbox:1;
+        -webkit-flex:1;
+    justify-content:flex-end;
+}
+
+.CompareBarGraph {
+    display:flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex:1;
+        -webkit-box:1;
+        -moz-box:1;
+        -ms-flexbox:1;
+        -webkit-flex:1;
+}

@@ -1,0 +1,17 @@
+.Map {
+    flex: 1;
+    -webkit-box:1;
+    -moz-box:1;
+    -ms-flexbox:1;
+    -webkit-flex:1;
+    height:100%;
+    z-index:3;
+}
+
+@media (max-width: 850px) { 
+    .Map {
+        position: absolute;
+        width:100%;
+        height: calc(100% - 40px);
+    }
+}

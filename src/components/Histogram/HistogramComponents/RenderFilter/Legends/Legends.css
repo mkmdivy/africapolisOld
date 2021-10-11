@@ -1,0 +1,107 @@
+.LegendWrapper {
+    /* padding:8px 25px 25px 25px; */
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.CircleWrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+.CircleWrapper span {
+    visibility: hidden;
+    width: 105px;
+    background-color: #5b5d62;
+    color: #fff;
+    padding: 3px 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    font-size:12px;
+    font-weight: 300;
+    text-align:center;
+    opacity: 0;
+    transition: opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    -ms-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+}
+
+.Circle {
+}
+.CircleWrapper span::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #5B5D62 transparent transparent transparent;
+}
+
+.CircleWrapper:hover span {
+    visibility: visible;
+    opacity: 1;
+}
+
+.CircleWrapper:hover .Circle {
+    opacity: 0.7;
+}
+
+.LegendWrapper > h6 {
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 20px;
+    /* font-weight: 600; */
+}
+
+.LegendWrapper > span {
+    display: inline-block;
+    text-align: right;
+    width: 50%;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.Legend {
+    width: 100%;
+}
+
+.legend-category {
+    border-bottom: solid 1px #585858;
+}
+
+.legend-title {
+    width:40%;
+    padding-left: 20px;
+}
+
+.legend-diagram {
+    text-align: center;
+}
+
+.legend-value {
+    text-align: center;
+    border-left: solid 1px rgba(173,173,173,0.6);
+    width: 30%;
+}
+
+.LegendTable {
+    width: 90%;
+    margin: auto;
+}
+
+.LegendTR {
+    margin-bottom:5px;
+}
+
+.LegendTR > td {
+    text-align:center;
+    width:16%;
+}

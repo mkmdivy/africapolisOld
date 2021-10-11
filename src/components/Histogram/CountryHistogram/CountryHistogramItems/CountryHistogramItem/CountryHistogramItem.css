@@ -1,0 +1,37 @@
+.CountryHistogramItem_Title,
+.AgglosHistogramItem_Title,
+.RegionHistogramItem_Title,
+.CompareHistogramItem_Title {
+    font-weight: 600;
+    display:flex;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+    flex:1;
+        -webkit-box:1;
+        -moz-box:1;
+        -ms-flexbox:1;
+        -webkit-flex:1;
+    min-width: 73%;
+}
+
+.Compare {
+    min-width: 100% !important;
+    margin-bottom: 20px;
+}
+
+.AgglosLineGraph_Title {
+    font-weight: 600;
+    display:flex;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+    flex:1;
+        -webkit-box:1;
+        -moz-box:1;
+        -ms-flexbox:1;
+        -webkit-flex:1;
+    align-items:center;
+}

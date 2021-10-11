@@ -1,0 +1,26 @@
+.Histogram_Total,
+.Agglos_Distance {
+    min-width:27%;
+    text-align: right;
+    display:flex;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+    flex:1;
+        -webkit-box:1;
+        -moz-box:1;
+        -ms-flexbox:1;
+        -webkit-flex:1;
+    justify-content:flex-end;
+}
+
+.Agglos_Distance > span {
+    font-size: .7rem;
+    line-height: 15px;
+    display: inline-block;
+}
+
+.CompareHistogram_Total {
+    margin-top:5px;
+}

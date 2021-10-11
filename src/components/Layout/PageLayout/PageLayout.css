@@ -1,0 +1,43 @@
+.PageLayout {
+    flex:1;
+    flex-flow: column;
+    height: 100%;
+    justify-content:center;
+    display: flex;
+    transition: transform 0.3s ease-out;
+    -webkit-transition: transform 0.3s ease-out;
+    -moz-transition: transform 0.3s ease-out;
+    -ms-transition: transform 0.3s ease-out;
+    -o-transition: transform 0.3s ease-out;
+}
+
+.PageLayout.Open {
+    transform: translate(300px);
+        -webkit-transform: translate(300px);
+        -moz-transform: translate(300px);
+        -ms-transform: translate(300px);
+        -o-transform: translate(300px);
+}
+
+@media (max-width: 850px) {
+    
+    .PageLayout.Open {
+        transform: none;
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+    }
+
+    .PageLayout {
+        z-index:4;
+        position:absolute;
+        background:white;
+        width:100%;
+        height: calc(100% - 40px);
+    }
+
+    .PageLayout.Hide {
+        z-index: 2;
+    }
+}
